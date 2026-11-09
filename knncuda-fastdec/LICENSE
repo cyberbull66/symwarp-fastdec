@@ -1,0 +1,35 @@
+The files in this directory (knncuda-fastdec/) are an adaptation of kNN-CUDA
+by Vincent Garcia, Éric Debreuve and Michel Barlaud:
+https://github.com/vincentfpgarcia/kNN-CUDA
+
+Changes from the original: the global-memory kNN implementation was extended
+with tiled/batched processing for large datasets, alternative top-k selection
+kernels, and an integration layer (KnnCudaFastDEC) for the FastDEC pipeline.
+
+This adaptation is distributed under the same license as the original work,
+reproduced below. It is excluded from the MIT license that covers the rest of
+this project, and it is only compiled when building with `make USE_KNNCUDA=1`.
+
+---------------------------------------------------------------------------
+Original license (LICENSE.md from vincentfpgarcia/kNN-CUDA):
+
+# Creative Commons License
+
+Attribution-Noncommercial-Share Alike 3.0 Unported
+
+You are free:
+
+* To Share: to copy, distribute and transmit the work
+* To Remix: to adapt the work
+
+Under the following conditions:
+
+* Attribution: You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).
+
+* Noncommercial: You may not use this work for commercial purposes.
+
+* Share Alike: If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+	
+For more information, please consult the page http://creativecommons.org/licenses/by-nc-sa/3.0/
+
+Full legal code: https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode

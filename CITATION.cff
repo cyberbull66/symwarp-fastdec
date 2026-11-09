@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "symwarp-fastdec: Accelerating FastDEC Clustering Algorithm with GPUs"
+type: software
+license: MIT
+authors:
+  - family-names: "Li"
+    given-names: "Mi"
+  - family-names: "Frank"
+    given-names: "Eibe"
+  - family-names: "Pfahringer"
+    given-names: "Bernhard"
+# TODO: set version and date-released (YYYY-MM-DD) when tagging the paper release.
+version: "TODO"
+date-released: "TODO"
+preferred-citation:
+  type: article
+  title: "Accelerating FastDEC Clustering Algorithm with GPUs"
+  authors:
+    - family-names: "Li"
+      given-names: "Mi"
+    - family-names: "Frank"
+      given-names: "Eibe"
+    - family-names: "Pfahringer"
+      given-names: "Bernhard"
+  # TODO: journal or conference, year, doi

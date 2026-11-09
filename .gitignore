@@ -1,0 +1,9 @@
+# Build outputs
+*.o
+*.d
+symwarp-fastdec
+sort_topk_test
+symwarp_unit_test
+
+# Prepared datasets (see scripts/prepare_glove.py)
+data/

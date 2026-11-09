@@ -1,0 +1,14 @@
+spiral.csv
+7
+3
+4
+
+
+##################################################################################
+# Only the first four lines above will be used by the code:
+# First line  -> the path to the dataset file
+# Second line -> the number of nearest neighbors, k
+# Third line  -> the number of the clusters we want to obtain, the final clustering, c
+# Fourth line -> the number of times to run FastDEC on the same dataset. Optional:
+#                if missing or not a valid positive number, it defaults to 1.
+################################################################################
